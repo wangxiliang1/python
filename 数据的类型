@@ -1,0 +1,17 @@
+name = "机械先驱"#输入英雄的名字
+gun = "换血"#他的技能
+age = 18#他的岁数
+zhishang = 350#他的智商
+
+print(name)
+print(gun)
+print(age)
+print(zhishang)
+
+print("姓名"+name+"技能"+gun+"年龄"+str(age)+"智商"+str(zhishang))
+
+print("姓名:%s 年龄:%d 技能:%s 智商:%d"%(name,age,gun,zhishang))
+print("姓名%s 年龄%d 技能%s 智商:%d"%(name,age,gun,zhishang))
+'''
+因为名字是字符串所以ｓ，年龄是整数ｄ，智商整数所以ｄ；字符串ｓ，整数ｄ，小数ｆ，前面一定要跟％，＂＂之后一定要跟％，亘古不变的．字符串的定义就是有数字，有汉字．整数int  字符串str  小数float   布尔bool.
+'''

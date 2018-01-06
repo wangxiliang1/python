@@ -1,0 +1,11 @@
+w = "adc"
+e = "肉盾"
+
+
+a = input("请输入一个位置")
+if a == w:
+	print("玩黄忠，")
+elif a == e:
+	print("玩你妹啊玩")
+else:
+	print("sorry,就知道玩，还能干啥")

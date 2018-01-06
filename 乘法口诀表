@@ -1,0 +1,13 @@
+count = 1
+su = 0
+while count <= 9:
+	m = 1
+	while m <= count:
+		su = m*count
+		print("%d*%d=%d"%(m,count,su),end="\t")
+		m+=1
+	print("")
+	count+=1
+"""
+乘法口诀表
+"""

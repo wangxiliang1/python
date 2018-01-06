@@ -1,0 +1,16 @@
+"""
+if 成立的条件:#只能一个条件,必须有条件．
+	print("如果条件成立，则进入")
+else:#后面直接:
+	print("我不知道你在干嘛")
+"""
+name = "小花"
+age = 18
+name1 = input("请输入你的名称")
+age1 = int(input("请输入你的年龄"))
+if name1 == name:
+	print("输入正确")
+elif age1 == age:
+	print("你获奖了")
+else:
+	print("w我不知道") 

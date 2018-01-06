@@ -1,0 +1,13 @@
+count = 100
+oushu = 0
+jishu = 0
+x = 0
+while x < count:
+	if x %2 == 0:
+		oushu = oushu + x
+	elif x %2 !=0:
+		jishu = jishu +x
+	x+=1
+print("偶数值为%d"%oushu)
+print("奇数值为%d"%jishu)
+print("总和为%d"%(jishu-oushu)) 

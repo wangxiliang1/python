@@ -1,0 +1,10 @@
+age = 18
+aa = int(input("请输入年龄"))
+if aa < 18:
+	print("不准谈恋爱")
+elif aa == 20:
+	print("抓紧找女对象吧")
+elif aa > 30:
+	print("完蛋了，凉了")
+else:
+	print("sorry,你有点傻")

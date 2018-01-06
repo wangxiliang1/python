@@ -1,0 +1,12 @@
+x = 10
+y = 30
+a = x+y
+print(a)
+a = x-y
+print(a)
+a = x*y
+print(a)
+a = x/y
+print(a)
+a = x**y
+print(a)

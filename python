@@ -1,0 +1,25 @@
+Y = 12#一年有12个月
+m = 30#每个月有30天
+d = 24#每天有24个小时
+h = 60#每个小时有60分钟
+M = 60#每分钟有60秒
+price = Y*m*d*h*M#属于公式
+print(price)#print输出一下
+print("*"*50)
+
+
+long = 1000#一公里有一千米
+meter = 100#一米是100厘米
+limi = 10#一厘米有10毫米
+all = long*meter*limi
+print(all)
+print("*"*50)
+name = input("请输入你的名字")
+age = input("请输入你的年龄")
+sex = input("请输入你的性别")
+job = input("请输入你的职业")
+number = input("请输入你的电话号码")
+QQ = input("请输入你的QQ号码")
+
+print("名字:%s 年龄:%s 性别:%s 职业:%s 电话号码:%s QQ号码:%s"%(name,age,sex,job,number,QQ))
+
